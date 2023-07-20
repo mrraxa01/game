@@ -1,0 +1,54 @@
+@import 'modal-game.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFF;
+    width: 10%;
+}
+
+.main-title{
+    color: #a00;
+    font-weight: bolder;
+}
+
+.main-p{
+    color: #a00;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.top-container{
+    width: 100vh;
+    color: #a00;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-left: 80px;
+    align-items: center;
+    text-decoration-style: dashed;
+    text-decoration: #a00;
+}
+
+.action-container{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.action-container img{
+    width: 100px;
+    height: 150px;
+}
+
+#play-game{
+    background-color: #a00;
+    color: #FFF;
+    font-size: 32px;
+    width: 150px;
+    margin-left: 120px;
+    height: 50px;
+
+}
